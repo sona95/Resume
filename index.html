@@ -12,6 +12,26 @@
             <h1> Unusyan Sona </h1>
             <h4> Student </h4>
         </div>
+        <div id="nav">
+            <div class="cont">
+                <div class="box">
+                    <ul>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div id="about">
             <div class="cont">
                 <div class="box">
@@ -34,7 +54,7 @@
                         </div>
                         <address>
                             Address: Yerevan, Armenia<br>
-                            Contact: +374 55 62 00 92<br>
+                            Contact: +374 00 00 00 00<br>
                             Email:<a href="mailto:unusyansona@gmail.com">unusyansona@gmail.com</a>
                         </address>
                     </div>
@@ -117,16 +137,24 @@
         <div id="contact">
             <div class="cont">
                 <div class="box">
+                    <h2> Contact </h2>
                     <form action="index.html" method="post">
                         <div class="left">
-                            <label for="lname">Name:</label>
-                            <input id="lname" type="text" name="name" placeholder="Type your name">
+                            <label>
+                                <span>Name:</span>
+                                <input type="text" name="name" placeholder="Type your name">
+                            </label>
+                            <label>
+                                <span> E-mail: </span>
+                                <input type="email" name="email" placeholder="Enter your E-mail">
+                            </label>
                         </div>
                         <div class="right">
-                            <label for="mail">E-mail:</label>
-                            <input id="mail" type="email" name="email" placeholder="Enter your E-mail">
+                            <label>
+                                <span>Enter Your Message :</span>
+                                <textarea placeholder="Enter Your Message..." name="comments" rows="10" cols="40"></textarea>
+                            </label>
                         </div>
-                        <textarea name="comments" rows="10" cols="40"></textarea>
                         <input type="submit" name="submit" value="Send">
                     </form>
                 </div>

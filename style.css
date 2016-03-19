@@ -1,0 +1,214 @@
+﻿body {
+    height: 100%;
+    background-color: #FFF;
+    font-family:'Roboto Condensed', sans-serif;
+}
+.cont {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    overflow: hidden;
+    background:rgb(222, 222, 222) ;
+    margin-bottom: 10px;
+}
+
+.box .left {
+    float: left;
+    padding:25px;
+    width: 200px;
+}
+.box .left img {
+    max-width: 100%;
+    height: auto;
+}
+.box .right {
+    float: left;
+    text-align: left;
+}
+
+.box .lanleft {
+    float: left;
+}
+
+.box .lanright{
+    float: left;
+}
+
+p {
+    margin: 0;
+    padding: 4px 0;
+}
+
+#all {
+    position: absolute;
+    width: 100%;
+}
+
+#name h1,h4 {
+    text-align: center;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    padding-right: 0;
+    font-weight: 500;
+}
+
+#nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#nav ul li  a {
+    text-align: center;
+    float: left;
+    line-height: 20px;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+#nav ul li a:hover{
+    color: cornflowerblue;
+}
+
+
+h2 {
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+#about address {
+    line-height: 25px;
+}
+
+#skills  .box {
+    padding: 0 20px;
+}
+
+li {
+    list-style:none ;
+}
+#skills ul:after {
+    content:'';
+    width: 100%;
+    display: inline-block;
+}
+
+#skills ul {
+    padding: 5px;
+    overflow: hidden;
+    text-align: justify;
+}
+#skills ul li {
+    width: 18%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+#skills ul li .name {
+    text-align: left;
+}
+#skills ul li .percent{
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #919095;
+    border-radius: 4px;
+    height: 20px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(38,0,255,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(38,0,255,1);
+    box-shadow: 0px 0px 3px 0px rgba(38,0,255,1);
+}
+#skills ul li .percent span{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background: green;
+}
+
+#education li{
+    list-style: disc;
+}
+
+#education .box {
+    padding: 0 20px;
+}
+
+#education .box ul {
+    padding-left: 20px;
+}
+
+#contact .left {
+    width: 38%;
+}
+
+#contact .right {
+    float: right;
+    width: 59%;
+}
+
+
+#contact form textarea {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    resize: none;
+}
+
+#contact form  input[type='submit'] {
+    margin-left: 255px;
+    margin-top: 20px;
+    height: 65px;
+    width: 240px;
+    text-align: center;
+}
+
+#contact .box {
+    padding: 15px;
+}
+
+#contact .box .left {
+    padding: 0;
+}
+
+#contact form .right textarea,
+#contact form .left input {
+    width: 100%;
+    display: block;
+    outline:none;
+    border:1px solid #919095;
+    border-radius:4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+}
+
+#contact .left label:first-child {
+    margin-bottom: 20px;
+}
+
+#contact form .left label input {
+    margin-top: 8px;
+    padding: 0 5px;
+    height: 30px;
+    background: #efeef3;
+}
+
+#contact form .right textarea {
+    padding: 5px;
+    height: 106px;
+    margin-top: 8px;
+    background: #efeef3;
+}
