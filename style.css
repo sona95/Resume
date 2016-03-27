@@ -3,7 +3,7 @@
     background-color: #FFF;
     font-family:'Roboto Condensed', sans-serif;
 }
-.cont {
+.cont,footer {
     width: 800px;
     margin: 0 auto;
 }
@@ -166,9 +166,10 @@ li {
 #contact form  input[type='submit'] {
     margin-left: 255px;
     margin-top: 20px;
-    height: 65px;
+    height: 35px;
     width: 240px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #contact .box {
@@ -211,4 +212,9 @@ label {
     height: 106px;
     margin-top: 8px;
     background: #efeef3;
+}
+
+footer {
+    background-color: rgb(222, 222, 222);
+    text-align: center;
 }
