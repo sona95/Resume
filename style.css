@@ -49,12 +49,12 @@ p {
     font-weight: 500;
 }
 
-#nav ul {
+nav ul {
     padding: 0;
     margin: 0;
 }
 
-#nav ul li  a {
+nav ul li  a {
     text-align: center;
     float: left;
     line-height: 20px;
@@ -64,7 +64,7 @@ p {
 }
 
 
-#nav ul li a:hover {
+nav ul li a:hover {
     color: #7BA2B2;
 }
 
